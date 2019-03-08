@@ -1,0 +1,12 @@
+
+.data-table {
+    position:relative;
+    top: 100px;
+}
+
+.filter-box {
+    position:relative;
+    float:right;
+    top:100px;
+    right: 5%;
+}

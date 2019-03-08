@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>UFO Sightings?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/css/style2.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    </head>
+
+    <body>
+        
+        <div class="col-md-8">
+            <table class="table table-striped data-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        <th>Shape</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="filter-box">
+            <form>
+                <ul>
+                    <li>
+                        <label>Filter by Date</label>
+                        <input id="datetime" type="text" placeholder="1/1/2010">
+                    </li>
+                    <li>
+                        <label>Filter by City</label>
+                        <input id="city" type="text" placeholder= "e.g. Fresno">
+                    </li>
+                    <li>
+                        <label>Filter by State</label>
+                        <input id="state" type="text" placeholder="e.g. CA">
+                    </li>
+                    <li>
+                        <label>Filter by Country</label>
+                        <input id="country" type="text" placeholder="e.g. US">
+                    </li>
+                    <li>
+                        <label>Filter by Shape</label>
+                        <input id="shape" type="text" placeholder="e.g. disk">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </body>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+    
+</html>
