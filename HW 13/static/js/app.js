@@ -19,7 +19,7 @@ var shapeInput = d3.select("#shape");
 var inputArray = [dateInput, cityInput, stateInput, countryInput, shapeInput];
 
 inputArray.forEach(function(field) {
-    field.on("click", function() {
+    field.on("change", function() {
         var dateValue = dateInput.property("value");
         var cityValue = cityInput.property("value");
         cityValue = cityValue.toLowerCase();
